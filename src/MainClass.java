@@ -4,5 +4,6 @@ public class MainClass {
         System.out.println("In IntelliJ");
         System.out.println("In IntelliJ MSG 2");
         System.out.println("In IntelliJ MSG 3");
+        System.out.println("In IntelliJ MSG 4");
     }
 }
