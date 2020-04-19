@@ -19,7 +19,6 @@ public class FileWriterWriteIntExample {
 			fileWriter.write(66);
 			fileWriter.write(67);
 			fileWriter.write(1234);
-			fileWriter.write(1234);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {
