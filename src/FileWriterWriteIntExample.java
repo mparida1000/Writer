@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * Java write file using FileWriter write method
- * 
+ *
  * @author pankaj
  *
  */
@@ -18,13 +18,14 @@ public class FileWriterWriteIntExample {
 			fileWriter.write(65);
 			fileWriter.write(66);
 			fileWriter.write(67);
+			fileWriter.write(1234);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {
 			try {
 				if (fileWriter != null) {
 					fileWriter.flush();
-					fileWriter.close();					
+					fileWriter.close();
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
