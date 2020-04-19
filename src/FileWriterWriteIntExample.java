@@ -16,8 +16,10 @@ public class FileWriterWriteIntExample {
 		try {
 			fileWriter = new FileWriter("D:/data/file.txt");
 			fileWriter.write(65);
+			fileWriter.write(5678);
 			fileWriter.write(66);
 			fileWriter.write(67);
+			fileWriter.write(5678);
 			fileWriter.write(1234);
 			fileWriter.write(1234);
 		} catch (Exception e) {
